@@ -13,13 +13,13 @@ TARGET_UPSTREAM = "https://registry-1.docker.io"
 [env.production]
 name = "cloudflare-docker-proxy"
 routes = [
-  { pattern = "docker.closeai.me", custom_domain = true },
-  { pattern = "quay.closeai.me", custom_domain = true },
-  { pattern = "gcr.closeai.me", custom_domain = true },
-  { pattern = "k8s-gcr.closeai.me", custom_domain = true },
-  { pattern = "k8s.closeai.me", custom_domain = true },
-  { pattern = "ghcr.closeai.me", custom_domain = true },
-  { pattern = "cloudsmith.closeai.me", custom_domain = true },
+  { pattern = "docker.caizb.top", custom_domain = true },
+  { pattern = "quay.caizb.top", custom_domain = true },
+  { pattern = "gcr.caizb.top", custom_domain = true },
+  { pattern = "k8s-gcr.caizb.top", custom_domain = true },
+  { pattern = "k8s.caizb.top", custom_domain = true },
+  { pattern = "ghcr.caizb.top", custom_domain = true },
+  { pattern = "cloudsmithcaizb.top", custom_domain = true },
 ]
 
 [env.production.vars]
